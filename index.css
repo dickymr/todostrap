@@ -1,0 +1,23 @@
+body {
+  background: url(./images/background.jpg);
+  background-repeat: repeat;
+  background-size: cover, contain;
+}
+
+.header {
+  font-family: "Kalam", cursive;
+}
+
+.container {
+  width: 500px;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: aliceblue;
+  padding: 5px 10px;
+  border-radius: 3px;
+  margin-bottom: 5px;
+}
