@@ -21,3 +21,10 @@ body {
   border-radius: 3px;
   margin-bottom: 5px;
 }
+
+.list-done {
+  background-color: lightslategray;
+}
+.list-done span {
+  text-decoration: line-through;
+}

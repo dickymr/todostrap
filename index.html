@@ -27,6 +27,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./index.css" />
+    <link rel="shortcut icon" href="./images/icon.png" type="image/x-icon">
     <title>TodoStrap</title>
   </head>
 
@@ -43,9 +44,9 @@
       <!-- FORM INPUT -->
       <div class="form-input">
         <div class="input-group mb-3">
-          <input type="text" class="form-control" placeholder="New Todo" />
+          <input type="text" class="form-control" placeholder="New task" id="add-input" />
           <div class="input-group-append">
-            <button class="btn btn-primary px-4" id="add-button">
+            <button class="btn btn-primary px-4" id="add-button" onclick="insertTodo()">
               Add
             </button>
           </div>
@@ -53,20 +54,7 @@
       </div>
 
       <!-- TODO LIST -->
-      <div class="todo-list">
-        <div class="list">
-          <span>Meeting with office</span>
-          <div class="button-action">
-            <button class="btn btn-sm btn-danger" id="delete-button">
-              <i class="fa fa-trash"></i>
-            </button>
-            <button class="btn btn-sm btn-success" id="done-button">
-              <i class="fa fa-check"></i>
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
+      <div class="todo-list" id="todo-list"></div>
 
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
