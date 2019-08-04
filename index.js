@@ -19,16 +19,6 @@ const myTodos = [
     id: 4,
     task: "Service my motorcycle",
     done: true
-  },
-  {
-    id: 5,
-    task: "Meditation",
-    done: false
-  },
-  {
-    id: 6,
-    task: "Learn golang",
-    done: true
   }
 ];
 
